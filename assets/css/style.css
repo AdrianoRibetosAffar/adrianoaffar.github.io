@@ -582,6 +582,19 @@ section {
   }
 }
 
+/* --------------------------------------------------------------
+# My Skills
+--------------------------------------------------------------*/
+.progress-bar.bg-success {
+    background: linear-gradient(90deg, #28a745 0%, #20c997 50%, #17a2b8 100%) !important;
+    background-size: 200% 100%;
+    animation: gradientShift 3s ease infinite;
+}
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
